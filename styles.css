@@ -1,0 +1,64 @@
+:root{
+  --primaryColor: #DCAB6E;
+  --primaryColor2: #BF9460;
+  --secondaryColor: #151B26;
+  --secondaryColor2: #434F5D;
+  --secondaryColor3: #2D353F;
+}
+*{
+  box-sizing: border-box;
+  font-family:"New Amsterdam", Sans-serif;
+}
+body{
+  margin: 0;
+}
+#welcome-section{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--secondaryColor)
+}
+#contact{
+  background-color: var(--secondaryColor)
+}
+h1{
+  font-size: 6rem;
+  color: var(--primaryColor);
+  letter-spacing: 5px
+}
+
+h2{
+  text-align: center;
+  font-size: 3rem;
+  color: var(--primaryColor);
+  letter-spacing: 5px;
+  margin:0
+}
+#navbar{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  background-color: var(--secondaryColor2)
+}
+
+#navbar a{
+  font-size: 2rem;
+  gap: 10px;
+  color: var(--primaryColor2);
+  padding: 10px;
+}
+#projects{
+  background-color: var(--secondaryColor2)
+}
+.project-grid{
+  display: grid;
+  justify-content: center;
+  gap: 10px;
+  grid-template-columns: repeat(auto-fit, 300px);
+  
+}
+.project-tile{
+  height: 300px;
+  border: 1px solid black;
+}
