@@ -1,9 +1,9 @@
 :root{
-  --primaryColor: #DCAB6E;
+  --primaryColor: #000000;
   --primaryColor2: #BF9460;
-  --secondaryColor: #151B26;
-  --secondaryColor2: #434F5D;
-  --secondaryColor3: #2D353F;
+  --secondaryColor: #ffffff;
+  --secondaryColor2: #c4c4c4;
+  --secondaryColor3: #ffffff;
 }
 *{
   box-sizing: border-box;
@@ -55,21 +55,10 @@ h2{
   justify-content: center;
   gap: 20px;
   background-color: var(--secondaryColor2);
-  position: fixed;
-  top:0;
   width: 100%;
 }
 
 #navbar a{
-  font-size: 2rem;
-  gap: 10px;
-  color: var(--primaryColor2);
-  text-decoration: none;
-  border: 2px solid var(--primaryColor2);
-  border-radius: 1rem;
-  padding: 10px;
-  transition: 1s;
-  margin: 10px;
 }
 #navbar a:hover{
   background-color: var(--primaryColor);
@@ -120,20 +109,13 @@ h2{
   margin-bottom: 50px
 }
 .fa{
-  color: white;
+  color: black;
 }
 .contact-box{
   margin: auto 20px
 }
 .contact-box a{
-  color: white;
-  text-decoration: none;
-  border: 2px solid var(--primaryColor);
-  background-color: none;
-  font-size:2rem;
-  padding: 1rem;
-  border-radius: 1rem;
-  transition: 1s;
+  color: black;
 }
 
 .contact-box a:hover{
